@@ -1,0 +1,32 @@
+{
+  "name": "ehub",
+  "version": "1.0.0",
+  "description": "E-hub, A mean stack application for e-commerce",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amjadkhan007/ehub.git"
+  },
+  "keywords": [
+    "ehub",
+    "mean",
+    "stack"
+  ],
+  "author": "Amjad Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amjadkhan007/ehub/issues"
+  },
+  "homepage": "https://github.com/amjadkhan007/ehub#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.5",
+    "jsonwebtoken": "^8.0.1",
+    "mongoose": "^4.11.13"
+  }
+}
